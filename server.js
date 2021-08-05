@@ -47,7 +47,7 @@ app.get('/entregaDPI', function(req, res) {
   var body;
   body = {"id":"123", "estado":true};
   res.json( [body] )
-  console.log('Hello, I am foo.');
+  console.log('Hello, I am foo. ');
 });
 
 
