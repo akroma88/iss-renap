@@ -93,7 +93,6 @@ function apellido() {
 app.get('/consultaDpi', function(req, res) {
   // por ejemplo se puede hacer un GET de http://localhost:3000/consultaDpi?dpi=200001555
   // donde el ?dpi es el parametro a evaluar luego
-  // comentario tk-001
   var body;
   var dpi = req.query.dpi;
   if(!dpi){
