@@ -48,9 +48,6 @@ function nombre() {
     case 9:
           return "Zuri";
           break;
-    case 10:
-          return "Zuru";
-          break;
     default:
       return "Noa";
   }
